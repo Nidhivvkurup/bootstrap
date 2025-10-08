@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        padding: 20px;
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif; 
+      }
+      h1 {
+        color: #343a40;
+        margin-bottom: 20px;
+      }
+      .breadcrumb {
+        background-color: #e9ecef;
+        padding: 10px 15px;
+        border-radius: 5px;
+      }
+      .btn {
+        margin: 10px 0;
+      }
+      .progress {
+        height: 25px;
+        margin-bottom: 20px;
+      }
+      .pagination {
+        justify-content: center;
+      }
+      .pagination .page-item.active .page-link {
+        background-color: #007bff;
+        border-color: #007bff;
+        color: white;
+      } 
+      .pagination .page-link {
+        color: #007bff;
+      }
+      .pagination .page-link:hover {
+        background-color: #e9ecef;
+      }
+      .badge {
+        font-size: 1rem;
+      }
+      .container-fluid {
+        max-width: 800px;
+        margin: auto;
+      }
+      .btn-outline-success {
+        color: #28a745;
+        border-color: #28a745;
+      }
+      .btn-outline-success:hover {
+        background-color: #28a745;
+        color: white;
+      }
+      .btn-info {
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+        color: white;
+      }
+      .btn-info:hover {
+        background-color: #138496;
+        border-color: #117a8b;
+        color: white;
+      }
+      .progress-bar {
+        background-color: #28a745;
+      }
+
+      .progress-bar-striped {
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+      }
+      .progress-bar-animated {
+        animation: progress-bar-stripes 1s linear infinite;
+      }
+      
+    </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <ul class = "breadcrumb">
+   <li class = "breadcrumb-item"><a href = "#">Home</a></li>
+   <li class = "breadcrumb-item"><a href="#">Dashboard</a></li>
+   <li class = "breadcrumb-item active" aria-current = "page">My Courses</li>
+</ul>
+<button type = "button" class = "btn btn-outline-success">Start New Course</button>
+<h1>My Progress<span class = "badge badge-secondary">3 Courses</span></h1>
+<button type = "button" class = "btn btn-info">
+        My Progress<span class = "badge badge-light">3 Courses</span>
+</button>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%"></div>
+</div>
+<ul class="pagination">
+  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+   <li class="page-item"><a class="page-link" href="#">1</a></li>
+  <li class="page-item active"><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+  </div>
+</body>
+</html>
