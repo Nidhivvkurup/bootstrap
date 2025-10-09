@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>company's support page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+        body {
+            padding: 20px;
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif; 
+        }
+        
+        h1 {
+            color: #343a40;
+            margin-bottom: 20px;
+            align-content: center;
+        }
+        .btn {
+            margin: 10px 0;
+        }
+        .badge {
+            font-size: 1rem;
+        }
+        .container-fluid {
+            max-width: 800px;
+            margin: auto;
+        }
+        .btn-info {
+            color: white;
+            background-color: #17a2b8;
+            border-color: #17a2b8;
+        }
+        .btn-info:hover {
+            background-color: #138496;
+            border-color: #117a8b;
+            color: white;
+        }
+        .card {
+            margin: 20px;
+        }
+        .card-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .card-text {
+            font-size: 1.2rem;
+            color: #6c757d;
+            margin-bottom: 15px;
+        }
+        .dropdown-menu a {
+            color: #343a40;
+        }
+        .dropdown-menu a:hover {
+            background-color: #f8f9fa;
+        }
+        .card-deck {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .card-body {
+            text-align: center;
+        }
+  </style>
+</head>
+<body>
+  <div class="container text-center">
+  <h1>FAQ Section</h1>
+</div>
+     <div class="container-fluid">
+    <div id = "accordion">
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "card-link" data-toggle = "collapse" href = "#collapseOne">
+                     1. What does BlueNova do?
+                  </a>
+               </div>
+               <div id = "collapseOne" class = "collapse show" data-parent = "#accordion">
+                  <div class = "card-body">We build custom software and offer IT consulting services for businesses.</div>
+               </div>
+            </div>
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseTwo">
+                     2. Do you work with small businesses?
+                  </a>
+               </div>
+               <div id = "collapseTwo" class = "collapse" data-parent = "#accordion">
+                  <div class = "card-body">Yes, we work with companies of all sizes, including startups and small businesses.</div>
+               </div>
+            </div>
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseThree">
+                     3. How long does a typical project take?
+                  </a>
+               </div>
+               <div id = "collapseThree" class = "collapse" data-parent = "#accordion">
+                  <div class = "card-body"> Most projects take 2–4 months, depending on the complexity.</div>
+               </div>
+            </div>
+         </div>
+        </div>
+         <div class="card-deck">
+            <div class="card" style="width:400px; height:670px">
+    <img class="card-img-top" src="https://imgs.search.brave.com/kZSLusSjKRUcAVMnByVCYgJ4gezyq08STq9xDvKzNPQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzQxLzIwLzAw/LzM2MF9GXzg0MTIw/MDA1NV80M2s5Z2h5/c2IxR3BKMVB3NWR6/OTF2cnVHZ3JLakpQ/YS5qcGc" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Eric Devid</h4>
+      <p class="card-text">Front-End Developer</p>
+      <div class ="dropdown">
+<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Contact</button>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#">Call</a>
+<a class="dropdown-item" href="#">Email</a>
+<a class="dropdown-item" href="#">Message</a>
+</div>
+</div>
+    </div>
+  </div>
+  <div class="card" style="width:400px; height:670px">
+    <img class="card-img-top" src="https://imgs.search.brave.com/KITM_4PynDrAo8vcbR7Eo4UzWaaJJSb7zj3xIE5PdLs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZmlsZXBpY3R1/cmUuYWkvc3R5bGVz/L3NhaWxvcl9tb29u/X2FuaW1lLndlYnA" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Angela Nick</h4>
+      <p class="card-text">Backend Developer</p>
+      <div class ="dropdown">
+<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Contact</button>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#">Call</a>
+<a class="dropdown-item" href="#">Email</a>
+<a class="dropdown-item" href="#">Message</a>
+</div>
+</div>
+    </div>
+  </div>
+<div class="card" style="width:400px; height:670px">
+    <img class="card-img-top" src="https://imgs.search.brave.com/8NNZKCsA2lw1rNUP8HokMoIdDbI_UwTRsQ9J-sFa05k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZiL2M3/L2MwL2ZiYzdjMGY0/NDU2NDA5OTM4OGY5/YzVmZmNjMzM4OTQ0/LmpwZw" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Tim Gyro</h4>
+      <p class="card-text">UI/UX Designer</p>
+      <div class ="dropdown">
+<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Contact</button>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#">Call</a>
+<a class="dropdown-item" href="#">Email</a>
+<a class="dropdown-item" href="#">Message</a>
+</div>
+</div>
+    </div>
+  </div>
+</body>
+</html>
